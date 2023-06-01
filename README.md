@@ -1,24 +1,15 @@
-# README
+decb7c.css
+a51d36.css
+decb7c.css
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+SassC::SyntaxError: Error: Undefined variable: "$green".
+        on line 5:12 of app/assets/stylesheets/_banner.scss
+>>     color: $green;
 
-Things you may want to cover:
+   -----------^
+/Users/seguraograve/code/lewagon/rails-1272/rails_front_end_1272/app/assets/stylesheets/_banner.scss:5
+Tasks: TOP => assets:precompile
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+$light-purple: rgb(142, 142, 221);
+$green: rgb(137, 227, 137);
+$gray: #b2b2b2;
